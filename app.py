@@ -12,7 +12,7 @@ import json
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Content Assistant",
+    page_title="Ali's Chatbot",
     page_icon="🤖",
     layout="wide"
 )
@@ -91,7 +91,7 @@ env_api_key = os.getenv("DEEPSEEK_API_KEY")
 # Sidebar with controls and API key input
 with st.sidebar:
     st.image("https://img.icons8.com/clouds/200/000000/chat.png", width=100)
-    st.title("AI Content Assistant")
+    st.title("Ali's Chatbot")
     st.markdown("---")
     
     # API Key Management
